@@ -43,7 +43,7 @@ au FocusGained,BufEnter * checktime
 
 " With a map leader it's possible to do extra key combinations
 " like <leader>w saves the current file
-let mapleader = ","
+let mapleader = "\\"
 
 " Fast saving
 nmap <leader>w :w!<cr>
@@ -118,6 +118,8 @@ set noerrorbells
 set novisualbell
 set t_vb=
 set tm=500
+
+set number
 
 " Properly disable sound on errors on MacVim
 if has("gui_macvim")
